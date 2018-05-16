@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SoundJukebox</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Sound effects -->
+    <string name="bell_clang">Bell clang</string>
+    <string name="funky_gong">Funky gong</string>
+    <string name="random_ha">Random ha</string>
+    <string name="spooky_cry">Spooky cry</string>
+    <string name="drum_solo">Drum solo</string>
+
+</resources>

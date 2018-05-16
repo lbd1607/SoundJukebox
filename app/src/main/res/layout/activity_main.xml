@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.missouristate.davis916.soundjukebox.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="424dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginStart="43dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/app_title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="316dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/bell_clang"
+        android:src="@drawable/bell_clang"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/funky_gong"
+        android:src="@drawable/funky_gong"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="135dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/random_ha"
+        android:src="@drawable/random_ha"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="43dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/spooky_cry"
+        android:src="@drawable/spooky_cry"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/drum_solo"
+        android:src="@drawable/drum_solo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+        app:layout_constraintVertical_bias="0.0" />
+</android.support.constraint.ConstraintLayout>
